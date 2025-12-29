@@ -2,7 +2,7 @@
 
 Um plugin para o [Obsidian](https://obsidian.md) que renderiza cifras musicais de forma elegante, utilizando a poderosa biblioteca [chord-mark](https://github.com/no-chris/chord-mark).
 
-![demonstração](demonstração.gif)
+![demonstração](demo.gif)
 
 ## 🚀 Como Usar
 
