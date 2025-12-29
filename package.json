@@ -1,0 +1,22 @@
+{
+  "name": "obsidian-chordmark",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "chord-mark": "^0.17.0",
+    "obsidian": "^1.11.0"
+  },
+  "devDependencies": {
+    "builtin-modules": "^5.0.0",
+    "esbuild": "^0.27.2",
+    "typescript": "^5.9.3"
+  }
+}

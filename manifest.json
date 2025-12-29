@@ -1,0 +1,9 @@
+{
+	"id": "obsidian-chordmark",
+	"name": "ChordMark",
+	"version": "1.0.0",
+	"minAppVersion": "0.15.0",
+	"description": "Renderiza cifras usando a biblioteca chord-mark",
+	"author": "Real Sigma Music",
+	"isDesktopOnly": false
+}

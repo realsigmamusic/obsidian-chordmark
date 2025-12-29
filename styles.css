@@ -1,0 +1,132 @@
+/* Wrapper principal */
+.chord-mark-wrapper {
+    margin: 0px;
+}
+
+/* Barra de controle */
+.chord-mark-controls {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 8px 10px;
+    background-color: var(--background-secondary);
+    border-radius: var(--radius-s) var(--radius-s) 0 0;
+    border-bottom: 1px solid var(--background-modifier-border);
+}
+
+/* Display de tonalidade */
+.chord-mark-transpose-display {
+    padding: 5px 12px;
+    font-size: var(--font-smallest);
+    font-weight: var(--font-medium);
+    color: var(--text-muted);
+    background-color: var(--background-primary);
+    border-radius: var(--radius-s);
+    min-width: 100px;
+    text-align: center;
+}
+
+/* Botões de transposição */
+.chord-mark-btn {
+    padding: 4px 12px;
+    background-color: var(--background-primary);
+    color: var(--text-muted);
+    border: 1px solid var(--background-modifier-border);
+    border-radius: var(--radius-s);
+    cursor: pointer;
+    font-size: var(--font-smallest);
+    font-weight: var(--font-black);
+    transition: all 0.2s ease;
+}
+
+.chord-mark-btn:hover {
+    background-color: var(--interactive-hover);
+    border-color: var(--text-accent);
+}
+
+/* Botão Reset */
+.chord-mark-btn-reset {
+    margin-left: auto;
+    background-color: var(--background-modifier-border);
+}
+
+.chord-mark-btn-reset:hover {
+    background-color: var(--interactive-hover);
+    border-color: var(--text-accent);
+}
+
+/* Botão de edição */
+.chord-mark-btn-edit {
+    margin-left: 6px; /* Pequeno espaço após o reset */
+    background-color: var(--background-modifier-border);
+}
+
+.chord-mark-btn-edit:hover {
+    background-color: var(--interactive-hover);
+    border-color: var(--text-accent);
+}
+
+/* Container de cifra */
+.chord-mark-container {
+    font-family: var(--font-monospace) !important;
+    white-space: pre-wrap !important;
+    line-height: var(--line-height-tight);
+    font-size: var(--font-smaller);
+    padding: 0px;
+    background-color: var(--background-primary);
+    border-radius: 0 0 var(--radius-s) var(--radius-s);
+}
+
+/* Barra de compasso */
+.cmBarSeparator {
+    color: var(--text-faint) !important;
+}
+
+/* Pontos */
+.cmChordDuration {
+    color: var(--text-faint) !important;
+}
+
+/* [] */
+.cmSubBeatGroupOpener,
+.cmSubBeatGroupCloser {
+    color: var(--text-faint) !important;
+}
+
+/* Tonalidade */
+.cmKeyDeclaration {
+    color: var(--text-success) !important;
+    font-weight: var(--font-black) !important;
+}
+
+/* Fórmula de compasso */
+.cmTimeSignature {
+    color: var(--text-success) !important;
+    font-weight: var(--font-black) !important;
+}
+
+/* Título de sessões */
+.cmSectionLabel {
+    background-color: var(--background-secondary);
+    border-radius: var(--radius-s);
+    border-bottom: none;
+    color: var(--text-warning);
+    font-weight: var(--font-black) !important;
+    padding: 4px 10px;
+    display: block;
+    width: 100%;
+}
+
+/* Linha de acordes */
+.cmChordLine {
+    color: var(--text-accent) !important;
+    font-weight: var(--font-black) !important;
+    display: block;
+    margin-bottom: calc(var(--font-text-size) * -1.1);
+}
+
+/* Linha de letra da música */
+.cmLyricLine {
+    color: var(--text-normal);
+    display: block;
+}
