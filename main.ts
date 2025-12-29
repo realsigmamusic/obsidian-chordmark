@@ -115,7 +115,7 @@ export default class ChordMarkPlugin extends Plugin {
 
                         // Renderizar para HTML
                         const rendered = renderSong(parsed, {
-                            alignBars: true,
+                            alignBars: false,
                             alignChordsWithLyrics: true,
                         });
 
