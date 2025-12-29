@@ -117,8 +117,6 @@ export default class ChordMarkPlugin extends Plugin {
                         const rendered = renderSong(parsed, {
                             alignBars: true,
                             alignChordsWithLyrics: true,
-                            printChordsDuration: 'auto',
-                            chartType: 'complete' // 'complete': Letra e Cifra. 'lyrics': Só letra. 'chords': Só acordes (Lead Sheet).
                         });
 
                         songContainer.innerHTML = rendered;

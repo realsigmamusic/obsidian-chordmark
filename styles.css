@@ -1,6 +1,7 @@
 /* Wrapper principal */
 .chord-mark-wrapper {
-    margin: 0px;
+    margin: 0;
+    padding: 0;
 }
 
 /* Barra de controle */
@@ -35,7 +36,7 @@
     border-radius: var(--radius-s);
     cursor: pointer;
     font-size: var(--font-smallest);
-    font-weight: var(--font-black);
+    font-weight: var(--font-medium);
     transition: all 0.2s ease;
 }
 
@@ -57,7 +58,6 @@
 
 /* Botão de edição */
 .chord-mark-btn-edit {
-    margin-left: 6px; /* Pequeno espaço após o reset */
     background-color: var(--background-modifier-border);
 }
 
@@ -75,22 +75,6 @@
     padding: 0px;
     background-color: var(--background-primary);
     border-radius: 0 0 var(--radius-s) var(--radius-s);
-}
-
-/* Barra de compasso */
-.cmBarSeparator {
-    color: var(--text-faint) !important;
-}
-
-/* Pontos */
-.cmChordDuration {
-    color: var(--text-faint) !important;
-}
-
-/* [] */
-.cmSubBeatGroupOpener,
-.cmSubBeatGroupCloser {
-    color: var(--text-faint) !important;
 }
 
 /* Tonalidade */
@@ -117,16 +101,47 @@
     width: 100%;
 }
 
+.cmSectionMultiplier {
+    color: var(--text-success);
+}
+
 /* Linha de acordes */
 .cmChordLine {
+    display: block;
+    font-weight: var(--font-thin) !important;
+    margin-bottom: calc(var(--font-text-size) * -1.1);
+}
+
+/* Acordes */
+.cmChordSymbol {
     color: var(--text-accent) !important;
     font-weight: var(--font-black) !important;
-    display: block;
-    margin-bottom: calc(var(--font-text-size) * -1.1);
 }
 
 /* Linha de letra da música */
 .cmLyricLine {
     color: var(--text-normal);
     display: block;
+}
+
+/* Repetição */
+.cmLine--isFromSectionCopy .cmLyricLine,
+.cmLine--isFromSectionCopy .cmChordLine {
+    opacity: 0.8;
+}
+
+/* Barra de compasso */
+.cmBarSeparator {
+    color: var(--text-faint) !important;
+}
+
+/* Pontos */
+.cmChordDuration {
+    color: var(--text-faint) !important;
+}
+
+/* [] */
+.cmSubBeatGroupOpener,
+.cmSubBeatGroupCloser {
+    color: var(--text-faint) !important;
 }
